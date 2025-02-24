@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Post.create!(title: 'My title', upvotes: 10, active: true)
+Post.create!(title: 'Another title', upvotes: 20, active: false)
+Post.create!(title: 'OMG! A title', upvotes: 30, active: true)

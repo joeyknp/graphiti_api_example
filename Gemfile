@@ -39,7 +39,7 @@ gem 'graphiti'
 
 # For automatic ActiveRecord pagination
 gem 'kaminari'
-
+gem "responders"
 # Test-specific gems
 
 group :test do
