@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::API
   respond_to :json
+
   include Graphiti::Rails
 
   register_exception Graphiti::Errors::RecordNotFound, status: 404
