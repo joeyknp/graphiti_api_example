@@ -42,11 +42,14 @@ gem 'kaminari'
 gem "responders"
 # Test-specific gems
 
+gem "vandal_ui"
+
 group :test do
   gem 'database_cleaner'
 end
 
 group :development, :test do
+  gem 'pry', '~> 0.15.0'
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'faker'
